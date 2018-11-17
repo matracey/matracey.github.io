@@ -5,10 +5,10 @@ import Project from "../../Presentation/Project/Project";
 
 class Projects extends Component {
     render() {
-        let { projects } = this.props;
+        let { projects, className } = this.props;
         projects = Array.from(projects);
         return (
-            <div className="Projects mh-5 d-flex flex-column">
+            <div className={`${className ? `${className} ` : ""}Projects mh-5 d-flex flex-column`}>
                 {projects.map(p => (
                     <Project
                         title={p.title}
@@ -19,6 +19,7 @@ class Projects extends Component {
                         actionOnClick={p.actionOnClick}
                         logoHref={p.logoHref}
                         logoAlt={p.logoAlt}
+                        className="mb-5"
                     />
                 ))}
             </div>
@@ -38,7 +39,8 @@ Projects.propTypes = {
             logoHref: PropTypes.string,
             logoAlt: PropTypes.string
         })
-    ).isRequired
+    ).isRequired,
+    className: PropTypes.string,
 };
 
 export default Projects;
