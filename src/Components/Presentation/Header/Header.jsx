@@ -5,6 +5,7 @@ import "./Header.css";
 
 const Header = props => {
     const { siteTitle, className } = props;
+    document.title = `Welcome to ${siteTitle}!`;
     return (
         <header className={`${className ? `${className} ` : ""}d-flex align-items-center ms-bgColor-themeDarker`}>
             <a href="/" className="d-flex align-items-center ml-3">
