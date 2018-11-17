@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <div className="App d-flex flex-column">
                 <Header className="flex-shrink-0" siteTitle={window.location.hostname} />
-                <div className="flex-fill d-flex flex-column content">
+                <div className="flex-fill d-flex flex-column content oy-auto">
                     <Jumbotron header="Welcome!" subtext="This site showcases my work. Please take the time to look around and feel free to reach out to me!" />
                     <Projects projects={projects} />
                 </div>
