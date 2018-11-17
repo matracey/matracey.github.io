@@ -157,3 +157,6 @@
 .ox-hidden { overflow-x: hidden; }
 .ox-visible { overflow-x: visible; }
 .ox-auto { overflow-x: auto; }
+
+.rounded { border-radius: 50%; }
+.square { border-radius: 0; }
