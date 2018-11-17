@@ -46,6 +46,7 @@ const Project = props => {
 };
 
 Project.propTypes = {
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     titleHref: PropTypes.string,
     subtext: PropTypes.string,

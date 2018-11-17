@@ -13,6 +13,8 @@ class Projects extends Component {
             <div className={`${className ? `${className} ` : ""}Projects mh-5 d-flex flex-column`}>
                 {projects.map((p, i, a) => (
                     <Project
+                        key={`project-${p.id}`}
+                        id={p.id}
                         title={p.title}
                         titleHref={p.titleHref}
                         subtext={p.subtext}
@@ -33,6 +35,7 @@ class Projects extends Component {
 Projects.propTypes = {
     projects: PropTypes.arrayOf(
         PropTypes.shape({
+            id: PropTypes.number.isRequired,
             title: PropTypes.string.isRequired,
             titleHref: PropTypes.string,
             subtext: PropTypes.string,
