@@ -160,3 +160,10 @@
 
 .rounded { border-radius: 50%; }
 .square { border-radius: 0; }
+
+@media (max-width: 479px) {} /* small */
+@media (min-width: 480px) and (max-width: 639px) {} /* medium */
+@media (min-width: 640px) and (max-width: 1023px) {} /* large */
+@media (min-width: 1024px) and (max-width: 1365px) {} /* extra large */
+@media (min-width: 1366px) and (max-width: 1919px) {} /* exta extra large */
+@media (min-width: 1920px) {} /* extra extra extra large */
