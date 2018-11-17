@@ -21,7 +21,7 @@ const Project = props => {
 
     return (
         <div className={`${className ? `${className} ` : ""}d-flex project-container`}>
-            <div className="project-text d-flex flex-column">
+            <div className="mr-auto project-text d-flex flex-column">
                 { titleHref ? (
                     <Link className="mt-3 ms-font-xxl title" href={titleHref} target="_blank">{title}</Link>
                 ) : (
@@ -34,11 +34,9 @@ const Project = props => {
                     </div>
                 )}
             </div>
-            {logoHref && (
-                <div className="project-logo">
-                    <Image src={logoHref} alt={logoAlt || title} width="45vw" maximizeFrame imageFit={ImageFit.contain}  />
-                </div>
-            )}
+            <div className="project-logo">
+                <Image src={logoHref || process.env.REACT_APP_LOGO_HREF} alt={logoAlt || title} width="45vw" maximizeFrame imageFit={ImageFit.contain}  />
+            </div>
         </div>
     );
 };
