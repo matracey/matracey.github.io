@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import md5 from "md5";
 
 import Header from "./Components/Presentation/Header/Header";
 import Jumbotron from "./Components/Presentation/Jumbotron/Jumbotron";
@@ -10,12 +11,20 @@ import projects from "./projects.json";
 import "./App.css";
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = { gravatarHref: `//gravatar.com/avatar/${md5("matracey@outlook.ie")}?s=600` }
+    }
+
     render() {
+        const { gravatarHref } = this.state;
+
         return (
             <div className="App d-flex flex-column">
                 <Header className="flex-shrink-0" siteTitle={window.location.hostname} />
                 <div className="flex-fill d-flex flex-column content oy-auto">
-                    <Jumbotron header="Welcome!" subtext="This site showcases my work. Please take the time to look around and feel free to reach out to me!" />
+                    <Jumbotron header="Welcome!" subtext="This site showcases my work. Please take the time to look around and feel free to reach out to me!" imageHref={gravatarHref} imageAlt="Gravatar" />
                     <div className="container">
                         <Projects projects={projects} />
                     </div>
