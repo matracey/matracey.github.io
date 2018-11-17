@@ -8,7 +8,7 @@ class App extends Component {
     render() {
         return (
             <div className="App d-flex flex-column">
-                <Header />
+                <Header siteTitle={process.env.REACT_APP_NAME} />
             </div>
         );
     }
