@@ -11,7 +11,7 @@ class Projects extends Component {
         projects = Array.from(projects);
         return (
             <div className={`${className ? `${className} ` : ""}Projects mh-5 d-flex flex-column`}>
-                {projects.map(p => (
+                {projects.map((p, i, a) => (
                     <Project
                         title={p.title}
                         titleHref={p.titleHref}
@@ -21,7 +21,8 @@ class Projects extends Component {
                         actionOnClick={p.actionOnClick}
                         logoHref={p.logoHref}
                         logoAlt={p.logoAlt}
-                        className="mb-5"
+                        showHorizontalRule={i !== a.length - 1}
+                        className="mb-3 ms-slideRightIn40"
                     />
                 ))}
             </div>
