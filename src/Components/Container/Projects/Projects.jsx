@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 
 import Project from "../../Presentation/Project/Project";
 
+import "./Projects.css";
+
 class Projects extends Component {
     render() {
         let { projects, className } = this.props;
