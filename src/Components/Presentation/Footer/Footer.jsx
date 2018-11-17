@@ -18,7 +18,7 @@ const Footer = props => {
             { githubUsername && (
                 <Link
                     href={`//github.com/${githubUsername}`}
-                    className="ml-3 ms-fontColor-white ms-fontColor-neutralQuaternary--hover ms-fontWeight-light d-flex"
+                    className="ml-3 ms-fontWeight-light d-flex"
                     target="_blank"
                 >
                     <i className="fab fa-github ms-fontSize-xl"></i>
