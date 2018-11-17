@@ -34,8 +34,8 @@ const Project = props => {
                     </div>
                 )}
             </div>
-            <div className="project-logo">
-                <Image src={logoHref || process.env.REACT_APP_LOGO_HREF} alt={logoAlt || title} width="15rem" maximizeFrame imageFit={ImageFit.contain}  />
+            <div className="project-logo flex-shrink-0">
+                <Image src={logoHref || process.env.REACT_APP_LOGO_HREF} alt={logoAlt || title} maximizeFrame imageFit={ImageFit.contain}  />
             </div>
         </div>
     );

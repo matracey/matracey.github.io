@@ -1,1 +1,5 @@
 .project-container { min-height: 15rem; }
+.project-logo { width: 6rem; }
+
+@media (min-width: 576px) { .project-logo { width: 9rem; } }
+@media (min-width: 768px) { .project-logo { width: 12rem; } }
