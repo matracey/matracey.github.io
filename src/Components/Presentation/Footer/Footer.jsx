@@ -21,7 +21,7 @@ const Footer = props => {
                     className="ml-3 ms-fontColor-white ms-fontColor-neutralQuaternary--hover ms-fontWeight-light d-flex"
                     target="_blank"
                 >
-                    <i class="fab fa-github ms-fontSize-xl"></i>
+                    <i className="fab fa-github ms-fontSize-xl"></i>
                     <span className="ml-1">{githubUsername}</span>
                 </Link>
             ) }
