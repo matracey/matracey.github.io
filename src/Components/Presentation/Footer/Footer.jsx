@@ -6,23 +6,23 @@ import { Link } from "office-ui-fabric-react"
 import "./Footer.css";
 
 const Footer = props => {
-    const { githubHref, rightText, className } = props;
+    const { githubUsername, rightText, className } = props;
     return (
         <footer
             className={`${
                 className ? `${className} ` : ""
             }d-flex ${
-                githubHref ? "justify-content-between" : "justify-content-end"
+                githubUsername ? "justify-content-between" : "justify-content-end"
             } align-items-center ms-bgColor-themeDarker`}
         >
-            { githubHref && (
+            { githubUsername && (
                 <Link
-                    href={githubHref}
+                    href={`//github.com/${githubUsername}`}
                     className="ml-3 ms-fontColor-white ms-fontColor-neutralQuaternary--hover ms-fontWeight-light d-flex"
                     target="_blank"
                 >
                     <i class="fab fa-github ms-fontSize-xl"></i>
-                    <span className="ml-1">matracey</span>
+                    <span className="ml-1">{githubUsername}</span>
                 </Link>
             ) }
             <div className="mr-3 ms-fontColor-white ms-fontWeight-light">{rightText}</div>
@@ -31,7 +31,7 @@ const Footer = props => {
 };
 
 Footer.propTypes = {
-    githubHref: PropTypes.string,
+    githubUsername: PropTypes.string,
     rightText: PropTypes.string.isRequired,
     className: PropTypes.string,
 }

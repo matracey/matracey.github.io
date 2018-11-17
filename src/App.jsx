@@ -29,7 +29,7 @@ class App extends Component {
                         <Projects projects={projects} />
                     </div>
                 </div>
-                <Footer className="flex-shrink-0" githubHref="//github.com/matracey" rightText="Built in 2018 by Martin Tracey" />
+                <Footer className="flex-shrink-0" githubUsername="matracey" rightText="Built in 2018 by Martin Tracey" />
             </div>
         );
     }
