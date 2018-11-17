@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "title": "Irish Driving Test: Theory Prep",
         "titleHref": "https://github.com/matracey/road-signs-test",
         "subtext": "A simple multiple-choice web app that helps Irish Driving Test candidates prepare for the oral theory questions that can be asked during the RSA Driving Test. Built in React and uses Microsoft Office UI Fabric as the styling framework.",
@@ -9,6 +10,7 @@
         "logoAlt": ""
     },
     {
+        "id": 1,
         "title": "XInput Battery Meter",
         "titleHref": "https://www.github.com/matracey/XInputBatteryMeter",
         "subtext": "Displays a battery meter for connected XInput controller devices in the Windows taskbar. Sends notifications when the controller battery is running low. Supports up to 4 controllers connected via XInput.",
@@ -18,6 +20,7 @@
         "logoAlt": ""
     },
     {
+        "id": 2,
         "title": "docker-cod4",
         "titleHref": "https://github.com/matracey/docker-cod4",
         "subtext": "Call of Duty 4: Modern Warfare dedicated server. Uses CoD4x server mod.",
@@ -25,6 +28,7 @@
         "actionHref": "https://hub.docker.com/r/matracey/docker-cod4x/"
     },
     {
+        "id": 3,
         "title": "Ark: Survival Evolved in Docker",
         "titleHref": "https://github.com/matracey/Ark-docker",
         "subtext": "An Ark: Survival Evolved dedicated server running in a docker container. Uses the Ark Manager utility with full support for mods from Steam Workshop.",
