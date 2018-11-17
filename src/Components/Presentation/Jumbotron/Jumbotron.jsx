@@ -8,20 +8,23 @@ import "./Jumbotron.css";
 const Jumbotron = props => {
     const { header, subtext, imageHref, imageAlt } = props;
     return (
-        <div className="ms-bgColor-neutralLighter jumbotron-container">
-            {imageHref && (
-                <div className="image-container">
+        <div className="ms-bgColor-neutralLight pv-3 ms-borderBox jumbotron">
+            <div className="d-flex container">
+                {imageHref && (
                     <Image
-                        href={imageHref}
+                        src={imageHref}
                         alt={imageAlt}
                         imageFit={ImageFit.contain}
+                        maximizeFrame
+                        width="12rem"
+                        className="flex-shrink-0 flex-grow-0 rounded ms-hiddenMdDown"
                     />
-                </div>
-            )}
-            <div className="text-container">
-                <div className="ms-font-su jumbotron-header">{header}</div>
-                <div className="ms-fontSize-xl ms-fontWeight-light jumbotron-subtext">
-                    {subtext}
+                )}
+                <div className="text-container flex-fill mv-auto ml-3">
+                    <div className="ms-font-su jumbotron-header">{header}</div>
+                    <div className="ms-fontSize-xl ms-fontWeight-light jumbotron-subtext">
+                        {subtext}
+                    </div>
                 </div>
             </div>
         </div>

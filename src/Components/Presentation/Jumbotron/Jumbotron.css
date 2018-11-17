@@ -1,10 +1,6 @@
-.jumbotron-container { height: 20rem; }
-.jumbotron-container > .text-container > .jumbotron-header, .jumbotron-container > .text-container > .jumbotron-subtext {
-    margin-left: 25vw;
-    margin-right: 25vw;
-}
+.jumbotron { height: 15rem; }
+.jumbotron > .container { height: 100%; }
 
-.jumbotron-container > .text-container > .jumbotron-header {
-    margin-top: 2.5rem;
+.jumbotron > .container > .text-container > .jumbotron-header {
     font-size: 4.5rem;
 }
