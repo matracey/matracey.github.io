@@ -1,8 +1,14 @@
 import React from "react";
 
-const Header = () => {
+import "./Header.css";
+
+const Header = (props) => {
+    const { siteTitle } = props;
     return (
-        <h1>Header</h1>
+        <header className="ms-bgColor-themeDarker d-flex align-items-center">
+            <div className="logo ml-3" />
+            <div className="ms-fontColor-white ms-font-xl ml-3">{siteTitle}</div>
+        </header>
     );
 }
 
