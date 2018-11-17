@@ -9,7 +9,7 @@ const Header = props => {
     return (
         <header className={`${className ? `${className} ` : ""}d-flex align-items-center ms-bgColor-themeDarker`}>
             <a href="/" className="d-flex align-items-center ml-3">
-                <div className="logo" />
+                <div className="logo" style={{ backgroundImage: `url("${process.env.REACT_APP_LOGO_HREF}")` }} />
                 <div className="ms-font-xl ml-1 ms-fontColor-white">{siteTitle}</div>
             </a>
         </header>
