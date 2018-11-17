@@ -14,7 +14,9 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { gravatarHref: `//gravatar.com/avatar/${md5("matracey@outlook.ie")}?s=600` }
+        const emails = (process.env.REACT_APP_GRAVATAR_EMAILS).split(";").map(v => atob(v));
+        const index = Math.round(Math.random() * (emails.length -1));
+        this.state = { gravatarHref: `//gravatar.com/avatar/${md5(emails[index])}?s=600` }
     }
 
     render() {
@@ -29,7 +31,7 @@ class App extends Component {
                         <Projects projects={projects} />
                     </div>
                 </div>
-                <Footer className="flex-shrink-0" githubUsername="matracey" rightText="Built in 2018 by Martin Tracey" />
+                <Footer className="flex-shrink-0" githubUsername={process.env.REACT_APP_GITHUB_USERNAME} rightText="Built in 2018 by Martin Tracey" />
             </div>
         );
     }
