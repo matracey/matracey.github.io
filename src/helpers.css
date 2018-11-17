@@ -144,3 +144,16 @@
 .w-50 { width: 50%!important; }
 .w-75 { width: 75%!important; }
 .w-100 { width: 100%!important; }
+
+.o-scroll { overflow: scroll; }
+.o-hidden { overflow: hidden; }
+.o-visible { overflow: visible; }
+.o-auto { overflow: auto; }
+.oy-scroll { overflow-y: scroll; }
+.oy-hidden { overflow-y: hidden; }
+.oy-visible { overflow-y: visible; }
+.oy-auto { overflow-y: auto; }
+.ox-scroll { overflow-x: scroll; }
+.ox-hidden { overflow-x: hidden; }
+.ox-visible { overflow-x: visible; }
+.ox-auto { overflow-x: auto; }
