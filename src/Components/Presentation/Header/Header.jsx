@@ -4,19 +4,20 @@ import PropTypes from "prop-types";
 import "./Header.css";
 
 const Header = props => {
-    const { siteTitle } = props;
+    const { siteTitle, className } = props;
     return (
-        <header className="d-flex align-items-center ms-bgColor-themeDarker">
+        <header className={`${className ? `${className} ` : ""}d-flex align-items-center ms-bgColor-themeDarker`}>
             <a href="/" className="d-flex align-items-center ml-3">
                 <div className="logo" />
-                <div className="ms-fontColor-white ms-font-xl ml-1">{siteTitle}</div>
+                <div className="ms-font-xl ml-1 ms-fontColor-white">{siteTitle}</div>
             </a>
         </header>
     );
 };
 
 Header.propTypes = {
-    siteTitle: PropTypes.string.isRequired
+    siteTitle: PropTypes.string.isRequired,
+    className: PropTypes.string,
 }
 
 export default Header;
