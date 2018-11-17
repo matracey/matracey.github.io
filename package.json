@@ -4,6 +4,7 @@
     "private": true,
     "homepage": "https://matracey.github.io/",
     "dependencies": {
+        "md5": "^2.2.1",
         "office-ui-fabric-react": "^6.104.0",
         "prop-types": "^15.6.2",
         "react": "^16.6.3",
