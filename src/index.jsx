@@ -6,6 +6,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 import "office-ui-fabric-react/dist/css/fabric.min.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import "./helpers.css";
 import "./index.css";
 
