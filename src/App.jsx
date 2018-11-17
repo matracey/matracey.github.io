@@ -24,7 +24,7 @@ class App extends Component {
             <div className="App d-flex flex-column">
                 <Header className="flex-shrink-0" siteTitle={window.location.hostname} />
                 <div className="flex-fill d-flex flex-column content oy-auto">
-                    <Jumbotron header="Welcome!" subtext="This site showcases my work. Please take the time to look around and feel free to reach out to me!" imageHref={gravatarHref} imageAlt="Gravatar" />
+                    <Jumbotron header="Welcome!" subtext="This site showcases my work. Please take the time to look around and feel free to reach out if you're interested in working with me!" imageHref={gravatarHref} imageAlt="Gravatar" />
                     <div className="container">
                         <Projects projects={projects} />
                     </div>
