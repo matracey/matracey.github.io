@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "fb493903265cad425ccdf8e04fc2de61",
-    "url": "/static/media/fa-solid-900.fb493903.woff2"
+    "revision": "8b7a9afd7b95f62e6ee8a72930bfb9ed",
+    "url": "/static/media/fa-brands-400.8b7a9afd.woff"
   },
   {
     "revision": "34f9fa69946be90dc152",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/js/main.34f9fa69.chunk.js"
   },
   {
-    "revision": "8b7a9afd7b95f62e6ee8a72930bfb9ed",
-    "url": "/static/media/fa-brands-400.8b7a9afd.woff"
+    "revision": "fb493903265cad425ccdf8e04fc2de61",
+    "url": "/static/media/fa-solid-900.fb493903.woff2"
   },
   {
     "revision": "bcb927a742a8370b76642fd1a9a749c0",
