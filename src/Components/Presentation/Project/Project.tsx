@@ -1,23 +1,35 @@
 import React, { Fragment } from "react";
+
 import PropTypes from "prop-types";
 
-import { PrimaryButton, Image, ImageFit, Link } from "office-ui-fabric-react";
+import {
+    Image,
+    ImageFit,
+    Link,
+    PrimaryButton,
+ } from "office-ui-fabric-react";
 
-import "./Project.css";
+import IProject from "../../../Interfaces/IProject";
 
+import "./Project.scss";
 
-const Project = props => {
+interface IProjectProps extends IProject {
+    className?: string;
+    showHorizontalRule: boolean;
+}
+
+const Project = (props: IProjectProps) => {
     const {
-        title,
-        titleHref,
-        subtext,
-        actionText,
         actionHref,
         actionOnClick,
-        logoHref,
+        actionText,
+        className,
         logoAlt,
+        logoHref,
         showHorizontalRule,
-        className
+        subtext,
+        title,
+        titleHref,
     } = props;
 
     return (
@@ -31,7 +43,7 @@ const Project = props => {
                     )}
                     {subtext && <div className="mt-1 mb-auto ms-font-l subtext">{subtext}</div>}
                     {actionText && (
-                        <div className="mt-3 mh-auto">
+                        <div className="mt-3 mx-auto">
                             <PrimaryButton text={actionText} href={actionHref} target="_blank" onClick={actionOnClick} />
                         </div>
                     )}
@@ -46,17 +58,17 @@ const Project = props => {
 };
 
 Project.propTypes = {
-    id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    titleHref: PropTypes.string,
-    subtext: PropTypes.string,
-    actionText: PropTypes.string,
     actionHref: PropTypes.string,
     actionOnClick: PropTypes.func,
-    logoHref: PropTypes.string,
+    actionText: PropTypes.string,
+    className: PropTypes.string,
+    id: PropTypes.number.isRequired,
     logoAlt: PropTypes.string,
+    logoHref: PropTypes.string,
     showHorizontalRule: PropTypes.bool,
-    className: PropTypes.string
+    subtext: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    titleHref: PropTypes.string,
 };
 
 export default Project;

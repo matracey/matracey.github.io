@@ -30,7 +30,8 @@
             2,
             {
                 "ignore": [
-                    "\\.css$"
+                    "\\.css$",
+                    "\\.scss$"
                 ],
                 "caseSensitive": false
             }
