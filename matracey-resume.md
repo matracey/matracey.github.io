@@ -15,9 +15,9 @@ author:
 - Martin Tracey
 subject: 'Martin Tracey is a Software Engineer, formerly at Microsoft. He has a passion for programming languages, web design, networking and cloud computing. He is an avid gamer and enjoys exploring how technology can improve lives, including healthcare and education.'
 ---
-###### [[linkedin.com/in/marttracey](https://www.linkedin.com/in/marttracey/)] . [[matracey](https://github.com/matracey)] . [[matracey@outlook.ie](mailto:matracey@outlook.ie)] . [[+1-206-591-9874](tel:+1-206-591-9874)]
+## [[linkedin.com/in/marttracey](https://www.linkedin.com/in/marttracey/)] . [[matracey](https://github.com/matracey)] . [[matracey@outlook.ie](mailto:matracey@outlook.ie)] . [[+1-206-591-9874](tel:+1-206-591-9874)]
 
-### I began exploring technology playing games on my family's computer, and my passion has evolved to include programming languages, web design, networking and cloud computing. I possess a unique skill set including technical expertise, program management, business analysis, and client engagement. I'm passionate about designing customer- focused products that meet business and end-user needs. Beyond work, I'm an avid gamer and enjoy exploring how technology can improve lives, including healthcare and education. My curiosity drives me to learn new skills and explore technology's endless possibilities.
+##### I began exploring technology playing games on my family's computer, and my passion has evolved to include programming languages, web design, networking and cloud computing. I possess a unique skill set including technical expertise, program management, business analysis, and client engagement. I'm passionate about designing customer- focused products that meet business and end-user needs. Beyond work, I'm an avid gamer and enjoy exploring how technology can improve lives, including healthcare and education. My curiosity drives me to learn new skills and explore technology's endless possibilities.
 
 ## Experience
 
