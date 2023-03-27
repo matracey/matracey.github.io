@@ -23,7 +23,7 @@ subject: 'Martin Tracey is a Software Engineer, formerly at Microsoft. He has a 
 
 ### Software Engineer, Supply Chain Engineering (SCE), Microsoft
 
-August 2019 - March 2023 Seattle, WA
+#### August 2019 - March 2023 Seattle, WA
 
 - End-to-end ownership of the design and implementation of Product Costing SKU Approval and Pricing Engine processes, resulting in scalable and resilient solutions that streamlined cost management, optimized pricing strategies, and increased overall business efficiency.
 - Established and maintained strong front-end development expertise within the team, providing guidance on best practices, design reviews, and mentoring opportunities that boosted team productivity and software quality.
@@ -35,7 +35,7 @@ August 2019 - March 2023 Seattle, WA
 
 ### Software Engineer, Supply Chain Engineering (SCE), Microsoft
 
-July 2018 - August 2019 Dublin, IE
+#### July 2018 - August 2019 Dublin, IE
 
 - Successfully transitioned from a PM role to a full-time SWE, showcasing adaptability and effective knowledge transfer in a fast-paced environment.
 - Demonstrated expertise in React, Redux, Microsoft Fluent UI, Formik, TypeScript, ESLint, .NET Core 3, C#, and mxGraph, leveraging these technologies to develop high-quality web applications.
@@ -49,7 +49,7 @@ July 2018 - August 2019 Dublin, IE
 
 ### Program Manager, Supply Chain Engineering (SCE), Microsoft
 
-June 2015 - December 2017 Dublin, IE
+#### June 2015 - December 2017 Dublin, IE
 
 - Delivered supply chain product roadmaps with a focus on UI/UX design and project management, leading to improved supply chain efficiencies, cost savings, and alignment with Microsoft's business strategy.
 - Modernized EMEA and APOC sales models and organizational processes using technical skills in front-end development, resulting in optimized costs of goods sold and enhanced customer satisfaction.
@@ -59,7 +59,7 @@ June 2015 - December 2017 Dublin, IE
 
 ### Service Engineer, Business Group IT (BGIT), Microsoft
 
-July 2014 - June 2015 Dublin, IE
+#### July 2014 - June 2015 Dublin, IE
 
 - Designed and maintained business services for development teams using strong UI/UX design and project management skills, resulting in streamlined service delivery and enhanced productivity across Microsoft.
 - Provisioned local and geo-redundant hot-standby Perforce and Source Depot servers using advanced infrastructure management skills, ensuring business continuity, instant disaster recovery with 0\% data loss, and minimized service downtime risk.
@@ -68,7 +68,7 @@ July 2014 - June 2015 Dublin, IE
 
 ### Developer and Junior System Architect, MindUnit Ltd
 
-June 2013 - June 2014 Dublin, IE
+#### June 2013 - June 2014 Dublin, IE
 
 - Delivered market-leading web experiences for clients in the cultural sector, driving customer engagement and conversion rates.
 - Led architecture redesign, migrating to AWS cloud services, achieving ~30\% cost reduction, sustainable scalability, and enhanced reliability.
